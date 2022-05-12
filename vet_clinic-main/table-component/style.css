@@ -1,0 +1,28 @@
+
+#owner-table td,
+#pets-table td,
+#owner-table th,
+#pets-table th {
+  border: 1px solid;
+  padding: 5px;
+  text-align: center;
+}
+
+#owner-table,
+#pets-table {
+  background-color: rgb(182, 176, 176);
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border: 1px solid #000;
+}
+
+.owner-container{
+  border: 2px solid rgb(109, 105, 105);
+  border-radius: 12px;
+  padding: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}

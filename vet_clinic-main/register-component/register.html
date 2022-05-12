@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+      data-require="jquery@2.2.4"
+      data-semver="2.2.4"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"
+    ></script>
+    <link
+      data-require="bootstrap@3.3.7"
+      data-semver="3.3.7"
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <script
+      data-require="bootstrap@3.3.7"
+      data-semver="3.3.7"
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    ></script>
+
+    
+    <script src="../table-component/ownerClass.js"></script>
+    <script src="../table-component/petClass.js"></script>
+    <script src="../register-component/ownerPetForm.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>Create Account</h2>
+          <hr />
+
+          <form class="">
+            <div class="form-group">
+              <label for="owner-name">Owner Name</label>
+              <input type="text" class="form-control" id="ownerName" value="" required/>
+            </div>
+
+            <div class="form-group">
+              <label for="phone-number">Phone Number</label>
+              <input
+                type="text"
+                class="form-control"
+                id="phoneNumber"
+                value="" required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" value="" required/>
+            </div>
+
+            <div class="form-group">
+              <label for="password">Password:</label>
+              <input
+                type="password"
+                class="form-control"
+                id="password"
+                value="" required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="confirm-password">Confirm Password:</label>
+              <input
+                type="password"
+                class="form-control"
+                id="confirm-password"
+                value=""
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="typeOfPet">Type of pet</label>
+              <select name="typeOfPet" id="typeOfPet">
+                <option value="Tiger">Tiger</option>
+                <option value="Dog">Dog</option>
+                <option value="Cat">Cat</option>
+                <option value="Dog">Dog</option>
+                <option value="Guineea-Pig">Guineea-Pig</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="nameOfPet">Name of Pet</label>
+              <input type="text" class="form-control" id="nameOfPet" value="" />
+            </div>
+
+            <div class="form-group">
+              <label for="ageOfPet">Age of Pet</label>
+              <input type="text" class="form-control" id="ageOfPet" value="" />
+            </div>
+
+            <button type="button" id="submit" class="btn btn-default">
+              Submit
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

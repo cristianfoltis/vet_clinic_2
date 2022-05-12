@@ -1,0 +1,18 @@
+/* Styles go here */
+#owner-table td,
+#pets-table td,
+#owner-table th,
+#pets-table th {
+  border: 1px solid;
+  padding: 5px;
+  text-align: center;
+}
+table {
+  width: 100%;
+}
+#rowner-table,
+#pets-table {
+  width: auto;
+  border: 1px solid #000;
+}
+
